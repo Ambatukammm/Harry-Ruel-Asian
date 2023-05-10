@@ -143,7 +143,85 @@ namespace Practise_Git
             static void three()
             {
                 Console.Clear();
-                Console.WriteLine("This is Task 3 \npress enter");
+                Console.WriteLine("Welcome to the Adventure Game!");
+                Console.WriteLine("You wake up in a dark forest. You don't remember how you got here.");
+
+                string choice = "";
+                bool gameOver = false;
+
+                while (!gameOver)
+                {
+                    Console.WriteLine("What do you want to do?");
+                    Console.WriteLine("A. Look for a way out of the forest");
+                    Console.WriteLine("B. Wait for someone to find you");
+
+                    choice = Console.ReadLine().ToUpper();
+
+                    if (choice == "A")
+                    {
+                        Console.WriteLine("You wander through the forest for hours, but you can't find a way out.");
+                        Console.WriteLine("As night falls, you hear strange noises in the distance.");
+                        Console.WriteLine("Do you:");
+                        Console.WriteLine("A. Follow the noises");
+                        Console.WriteLine("B. Find a place to hide");
+
+                        choice = Console.ReadLine().ToUpper();
+
+                        if (choice == "A")
+                        {
+                            Console.WriteLine("You follow the noises and eventually come across a group of friendly travelers.");
+                            Console.WriteLine("They help you find your way out of the forest.");
+                            Console.WriteLine("Congratulations! You have won the game.");
+                            gameOver = true;
+                        }
+                        else if (choice == "B")
+                        {
+                            Console.WriteLine("You find a small cave to hide in. Unfortunately, it's not very safe.");
+                            Console.WriteLine("You are attacked by a pack of wolves during the night and don't survive.");
+                            Console.WriteLine("Game over.");
+                            gameOver = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid choice. Please try again.");
+                        }
+                    }
+                    else if (choice == "B")
+                    {
+                        Console.WriteLine("You wait for several hours, but nobody comes.");
+                        Console.WriteLine("As night falls, you realize that you're not alone in the forest.");
+                        Console.WriteLine("Do you:");
+                        Console.WriteLine("A. Try to find a weapon");
+                        Console.WriteLine("B. Climb a tree to hide");
+
+                        choice = Console.ReadLine().ToUpper();
+
+                        if (choice == "A")
+                        {
+                            Console.WriteLine("You find a sturdy stick and use it to defend yourself against a pack of wolves.");
+                            Console.WriteLine("You survive the night and eventually find your way out of the forest.");
+                            Console.WriteLine("Congratulations! You have won the game.");
+                            gameOver = true;
+                        }
+                        else if (choice == "B")
+                        {
+                            Console.WriteLine("You climb a tree and manage to avoid the predators during the night.");
+                            Console.WriteLine("In the morning, you find a path that leads you out of the forest.");
+                            Console.WriteLine("Congratulations! You have won the game.");
+                            gameOver = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid choice. Please try again.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid choice. Please try again.");
+                    }
+                }
+
+                Console.ReadLine();
                 Console.ReadLine();
                 Console.Clear();
             }
@@ -162,6 +240,6 @@ namespace Practise_Git
                 Console.Clear();
             }
         }
-       }
     }
+}
 
