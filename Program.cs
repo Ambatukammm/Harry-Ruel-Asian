@@ -11,7 +11,7 @@ namespace Practise_Git
             do
             {
                 Console.WriteLine("Please select an option to play a game");
-                Console.WriteLine("1. Task 1");
+                Console.WriteLine("1. Guessing Number Game");
                 Console.WriteLine("2. Task 2");
                 Console.WriteLine("3. Task 3");
                 Console.WriteLine("4. Task 4");
