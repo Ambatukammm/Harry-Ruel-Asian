@@ -46,7 +46,27 @@ namespace Practise_Git
             }
 
             Console.WriteLine("Press My Ass to exit.");
+            Console.WriteLine("    ______");
+            Console.WriteLine("  (((((    \\");
+            Console.WriteLine("   ); \\\\|)|");
+            Console.WriteLine("  <   ||||||/");
+            Console.WriteLine("   >  ///////");
+            Console.WriteLine("   `--| abac");
+            Console.WriteLine("   ___/     \\___⠄");
+            Console.WriteLine("(    ~        ~   )");
+            Console.WriteLine("\\  `              /");
+            Console.WriteLine("| \\             / |");
+            Console.WriteLine("| -\\           /  /");
+            Console.WriteLine("(__ |     |   |- ,");
+            Console.WriteLine("    |     |   |");
+            Console.WriteLine("    /          \\");
+            Console.WriteLine("   /     `,     \\");
+            Console.WriteLine("  |       )      )");
+            Console.WriteLine("  |      _/_   _ /");
+            Console.WriteLine("   \\      |      |");
+            Console.WriteLine("    |     |      ,");
             Console.ReadKey();
+
         }
     }
 }
