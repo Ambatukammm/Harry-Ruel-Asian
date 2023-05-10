@@ -138,6 +138,7 @@ namespace Practise_Git
                     }
                     Thread.Sleep(1000);
                 }
+                Console.ReadLine();
                 Console.Clear();
             }
             static void three()
@@ -225,6 +226,7 @@ namespace Practise_Git
                 Console.ReadLine();
                 Console.Clear();
             }
+
             static void four()
             {
                 Console.Clear();
