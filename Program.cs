@@ -34,7 +34,7 @@ namespace Practise_Git
                     else
                     {
                         isCorrect = true;
-                        Console.WriteLine($"Congratulations! You guessed the secret number {secretNumber} in {attempts} attempts.");
+                        Console.WriteLine($"Congratulations! Dont know what to write {secretNumber} in {attempts} attempts.");
                     }
                 }
                 else
@@ -43,7 +43,7 @@ namespace Practise_Git
                 }
             }
 
-            Console.WriteLine("Press any key to exit.");
+            Console.WriteLine("Press My Ass to exit.");
             Console.ReadKey();
         }
     }
