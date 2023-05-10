@@ -13,7 +13,7 @@ namespace Practise_Git
 
             Console.WriteLine("Welcome to the Number Guessing Game!");
 
-            while (!isCorrect)
+            while (!isCorrect && attempts < 10)
             {
                 Console.Write("Enter your guess (1-100): ");
                 string input = Console.ReadLine();
