@@ -7,6 +7,7 @@ namespace Practise_Git
         static void Main(string[] args)
         {
             Console.WriteLine("Hi im the asian");
+            Console.WriteLine("Hello im Harry");
         }
     }
 }
