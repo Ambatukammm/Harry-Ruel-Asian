@@ -34,15 +34,9 @@ namespace Practise_Git
                     else
                     {
                         isCorrect = true;
-
-<<<<<<< HEAD
                         Console.WriteLine($"Congratulations! you got the {secretNumber} in {attempts} guesses! get good kid lol.");
 
                         Console.WriteLine($"Congratulations! Don't know what to write {secretNumber} in {attempts} attempts.");
-
-=======
-                        Console.WriteLine($"Congratulations! Dont know what to write {secretNumber} in {attempts} attempts.");
->>>>>>> 252f52a729912f5877705dd556ebf6fc76a89094
                     }
                 }
                 else
